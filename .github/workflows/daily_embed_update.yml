@@ -2,8 +2,6 @@ name: Daily Fetch, Embed, and Update Arxiv Data
 
 on:
   workflow_dispatch: # Manual trigger
-  schedule:
-    - cron: '0 5 * * *' # Run daily at 5:00 UTC
 
 jobs:
   fetch_rss:
